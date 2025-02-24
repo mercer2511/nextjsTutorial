@@ -1,21 +1,14 @@
 <html>
   <body>
     <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script type="text/javascript">
-    // Seleccionar el elemento <div> con el id 'app'
     const app = document.getElementById('app');
-
-    // Crear un nuevo elemento H1
     const header = document.createElement('h1');
-    
-    // Crear un nodo de texto con el contenido del encabezado
     const text = 'Develop. Preview. Ship.';
     const headerContent = document.createTextNode(text);
-
-    // Agregar el nodo de texto al H1
     header.appendChild(headerContent);
-
-    // Agregar el H1 al elemento <div> con el id 'app' 
     app.appendChild(header);
     </script>
   </body>
