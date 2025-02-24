@@ -2,21 +2,21 @@
   <body>
     <div id="app"></div>
     <script type="text/javascript">
-    // Select the div element with 'app' id
+    // Seleccionar el elemento <div> con el id 'app'
     const app = document.getElementById('app');
 
-    // Create a new element
+    // Crear un nuevo elemento H1
     const header = document.createElement('h1');
     
-    // Create a new text node for H1 element
+    // Crear un nodo de texto con el contenido del encabezado
     const text = 'Develop. Preview. Ship.';
     const headerContent = document.createTextNode(text);
 
-    // Append the text node to the H1 element
+    // Agregar el nodo de texto al H1
     header.appendChild(headerContent);
 
-    // Place the H1 element inside the <div>
+    // Agregar el H1 al elemento <div> con el id 'app' 
     app.appendChild(header);
-    </script> 
+    </script>
   </body>
 </html>
